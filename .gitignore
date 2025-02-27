@@ -1,0 +1,51 @@
+# Ignore build artifacts
+target/
+build/
+
+# Ignore Maven and Gradle wrapper files
+.mvn/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/pom.xml.lastUpdated
+**/dependency-reduced-pom.xml
+**/release.properties
+**/dependency/
+**/build/
+**/out/
+**/.gradle/
+**/.idea/
+**/.vscode/
+
+# Ignore logs and temp files
+*.log
+logs/
+hs_err_pid*
+*.swp
+.DS_Store
+
+# Ignore environment variables and config files
+.env
+*.properties
+*.yml
+*.yaml
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# Ignore JAR/WAR files
+*.jar
+*.war
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore OS-generated files
+Thumbs.db
+*.DS_Store
